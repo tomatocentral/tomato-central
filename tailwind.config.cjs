@@ -4,6 +4,9 @@ const config = {
   theme: {
     extend: {},
   },
+  daisyui: {
+    themes: ["cupcake"],
+  },
   plugins: [require("daisyui")],
 };
 
